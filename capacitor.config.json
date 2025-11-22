@@ -1,0 +1,20 @@
+{
+  "appId": "com.fintrackpro.app",
+  "appName": "FinTrack Pro",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "",
+      "keystoreAlias": ""
+    }
+  },
+  "plugins": {
+    "Filesystem": {
+      "androidRequestPermissions": true
+    }
+  }
+}
+
